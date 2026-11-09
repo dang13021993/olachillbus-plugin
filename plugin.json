@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "olachillbus",
+  "version": "1.0.0",
+  "description": "OlaChill Bus: coaches, minibuses and vans with driver for groups in the Schengen area of Europe. Read-only: countries served, which vehicle fits, how to request a quote.",
+  "author": {
+    "name": "OlaChill Bus",
+    "email": "helo@olachillbus.com",
+    "url": "https://olachillbus.com"
+  },
+  "homepage": "https://olachillbus.com",
+  "license": "MIT",
+  "keywords": [
+    "coach-hire",
+    "charter-bus",
+    "minibus",
+    "group-travel",
+    "europe",
+    "schengen",
+    "mcp"
+  ]
+}

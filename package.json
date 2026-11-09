@@ -1,0 +1,32 @@
+{
+  "name": "olachillbus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OlaChill Bus: coaches, minibuses and vans with driver for groups in the Schengen area of Europe. Read-only: countries served, which vehicle fits, how to request a quote.",
+  "license": "MIT",
+  "homepage": "https://olachillbus.com",
+  "author": "OlaChill Bus <helo@olachillbus.com>",
+  "keywords": [
+    "dsh",
+    "mcp",
+    "coach-hire",
+    "europe",
+    "schengen"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

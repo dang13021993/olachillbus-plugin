@@ -1,0 +1,12 @@
+{
+  "name": "olachillbus",
+  "version": "1.0.0",
+  "description": "OlaChill Bus: coaches, minibuses and vans with driver for groups in the Schengen area of Europe. Read-only: countries served, which vehicle fits, how to request a quote.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "olachillbus": {
+      "httpUrl": "https://olachillbus.com/mcp",
+      "timeout": 30000
+    }
+  }
+}

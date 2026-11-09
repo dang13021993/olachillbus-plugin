@@ -1,0 +1,14 @@
+{
+  "name": "olachillbus",
+  "owner": {
+    "name": "OlaChill Bus",
+    "email": "helo@olachillbus.com"
+  },
+  "plugins": [
+    {
+      "name": "olachillbus",
+      "source": "./",
+      "description": "OlaChill Bus: coaches, minibuses and vans with driver for groups in the Schengen area of Europe. Read-only: countries served, which vehicle fits, how to request a quote."
+    }
+  ]
+}

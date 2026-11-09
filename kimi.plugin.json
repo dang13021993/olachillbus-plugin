@@ -1,0 +1,33 @@
+{
+  "name": "olachillbus",
+  "version": "1.0.0",
+  "description": "Coaches, minibuses and vans with driver for groups in the Schengen area of Europe: countries served, which vehicle fits, how to request a quote.",
+  "keywords": [
+    "coach-hire",
+    "charter-bus",
+    "minibus",
+    "group-travel",
+    "europe",
+    "schengen",
+    "mcp"
+  ],
+  "author": {
+    "name": "OlaChill Bus",
+    "email": "helo@olachillbus.com"
+  },
+  "homepage": "https://olachillbus.com",
+  "license": "MIT",
+  "interface": {
+    "displayName": "OlaChill Bus",
+    "shortDescription": "Group coaches with driver in the Schengen area of Europe",
+    "longDescription": "Connects to the public, read-only OlaChill Bus MCP server (https://olachillbus.com/mcp). Lists the countries served, the vehicle classes that fit a group and its large suitcases, and where to request a quote on olachillbus.com. It never books, takes payment or confirms availability.",
+    "developerName": "OlaChill Bus",
+    "websiteURL": "https://olachillbus.com"
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "olachillbus": {
+      "url": "https://olachillbus.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "olachillbus": {
+      "type": "http",
+      "url": "https://olachillbus.com/mcp"
+    }
+  }
+}
